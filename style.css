@@ -84,3 +84,30 @@ header {
       color: gray;
 }
 /* donate section style has been ended */
+
+/*======= donate plans section has been started from here ======= */
+
+
+#donationPlans-section {
+     
+    text-align: center;
+    width: 70%;
+    margin: 70px auto 50px;
+}
+
+#donationPlans-section h2{
+
+    color: red;
+    font-size: 40px;
+}
+#all-plans{
+
+     display: flex;
+     gap: 1rem;
+     margin-top: 1rem;
+}
+#all-plans div{
+
+     text-align: left;
+     padding: 25px;
+}
