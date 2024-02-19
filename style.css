@@ -75,7 +75,7 @@ header {
     font-weight: bold;
     border: none;
     border-radius: 0.3rem;
-    margin-left: 15px;
+
 }
 
 #donation-amounts button:nth-child(2) {
@@ -94,128 +94,50 @@ header {
 
 /* donate section style has been ended */
 
-/*======= donate plans section has been started from here ======= */
 
+/*================ Css media queries ===================*/
 
-#donationPlans-section {
+/* Header and donation amounts sections below */
 
-    text-align: center;
-    width: 70%;
-    margin: 70px auto 50px;
-}
+@media only screen and (max-width: 576px) {
 
-#donationPlans-section h2 {
+    #header-section {
 
-    color: red;
-    font-size: 40px;
-}
+        width: 95%;
+    }
 
-#all-plans {
+    #donation-section {
+        width: 100%;
+    }
 
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-}
+    #donation-amounts {
+    
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+    #donation-amounts button {
 
-#all-plans div {
+           margin: 0 2rem;
+      }  
+    
+    
 
-    text-align: left;
-    padding: 25px;
-}
+    }
+ /* donatin plans section is below  */
+ @media only screen and (max-width: 576px){
 
-/* Donate plans section has been ended */
+         #donationPlans-section{
 
-/*======= Donation contribution section has been started from here =======*/
-
-#contribution-section {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    text-align: left;
-    width: 70%;
-    margin: 70px auto 50px;
-}
-
-#contribution-section div {
-
-    width: 50%;
-}
-
-#contribution-section h2 {
-
-    color: red;
-    font-size: 25px;
-
-}
-
-#contribution-section p {
-
-    margin: 0;
-}
-
-/* Donation contribution section has been ended */
-
-/*======= "Get Our Update" section has been started from here ======== */
-
-#gettingUpdates-section {
-
-    width: 50%;
-    margin: 0 auto 50px;
-    text-align: center;
-}
-
-#gettingUpdates-section h2 {
-
-    color: red;
-    font-weight: bold;
-    font-size: 30px;
-
-}
-
-#email-container {
-
-    margin-top: 2rem;
-    background-color: rgba(255, 0, 0, 0.197);
-    padding: 60px 0;
-}
-
-#email-container input {
-
-    padding: 0.5rem 1rem;
-    border: none;
-    outline: none;
-
-}
-
-#email-container input[type='button'] {
-
-    background: red;
-    color: white;
-    margin-left: -5px;
-
-
-}
-
-/* Footer section */
-
-footer {
-
-    background-color: black;
-    margin: 0;
-    padding: 30px 0;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-
-}
-
-footer h2 {
-
-    color: red;
-    font-family: "Protest Revolution", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-}
+               text-align: center;
+         }
+         #all-plans div{
+             
+              padding: 1rem;
+              margin: 1rem 0;
+         }
+         #donationPlans-section > p{
+              
+              width: 85% !important;
+         }
+ }
