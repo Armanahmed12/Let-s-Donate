@@ -125,6 +125,29 @@ header {
 
 /* Donate plans section has been ended */
 
+    /* ============ contribution sectin has been started from here ============ */
+
+          .contribution-section{
+
+                display: flex;
+                margin: 0 3rem 2rem; 
+                
+          }
+
+          .contribution-section div{
+              
+               width: 50%;
+          }
+          #second-contributin-section div:nth-child(2){
+
+                  text-align: right;
+          }
+
+
+    /* ============ contribution sectin has been ended here. ============ */
+        
+
+
       /*======= "Get Our Update" section has been started from here ======== */
 
 #gettingUpdates-section {
@@ -139,6 +162,7 @@ header {
     color: red;
     font-weight: bold;
     font-size: 30px;
+    margin-top: 4rem;
 
 }
 
@@ -249,14 +273,24 @@ footer h2 {
               padding: 0 1rem;
               display: flex;
               flex-direction: column-reverse;
+              margin:0;
              
          }
+         .contribution-section div{
+
+              width: 100%;
+         }
+
          /* another contributin section */
           #second-contributin-section{
               
             flex-direction: column;
             margin: 1rem 0;
                 
+          }
+          #second-contributin-section div:nth-child(2){
+
+                 text-align: center;
           }
  }
 
